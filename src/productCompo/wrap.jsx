@@ -23,12 +23,13 @@ export default function Wrap() {
     return (
       <section className="productSection">
          
-        <div className="productContainer">
-          {produdct.slice(0, 9).map((v) => {
-            return <ProductCard obj={v} event={buttonClick} key={v.id} />;
-          })}
-        </div>
-        <Cart items={cart} price={cartTotal} />
+            <div className="productContainer">
+              {produdct.slice(0, 9).map((v) => {
+                return <ProductCard obj={v} event={buttonClick} key={v.id} />;
+              })}
+            </div>
+            <Cart items={cart} />
+
       </section>
     );
 }
