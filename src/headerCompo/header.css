@@ -1,0 +1,28 @@
+.header{
+    background-color: rgb(1, 1, 22);
+    width: 100%;
+}
+
+.navbar{
+    width: 90%;
+    margin: auto;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px 0px;
+}
+
+.ulList{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    
+}
+
+.ulList li a{
+    color: antiquewhite;
+    font-weight: bold;
+    font-size: 13px;
+    text-decoration: none;
+}
